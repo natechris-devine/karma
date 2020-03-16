@@ -43,6 +43,7 @@ describe("Selecting an Event Package", () => {
         });
 
         it("should return null if a requested package does not exist", () => {
+            expect(viewPackageDetails).toBeDefined();
             let package = viewPackageDetails('This IS A MADE UP PACKAGEE!! *Kicks person off ledge*');
             expect(package).toBeNull();
         });
