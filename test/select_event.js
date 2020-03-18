@@ -25,9 +25,9 @@ describe("Selecting an Event Package:", () => {
         //     }
         // });
 
-        afterAll(() => {
-            viewAllPackages = null;
-        });
+        // afterAll(() => {
+        //     viewAllPackages = null;
+        // });
 
        it("should be defined", () => {
            expect(viewAllPackages).toBeDefined();
